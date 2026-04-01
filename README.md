@@ -1,16 +1,41 @@
-# React + Vite
+# 🚀 Aventisia Assignment – Knowledge Base UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A pixel-perfect React UI built from a Figma design. This project replicates a modern dashboard interface with a sidebar, navbar, cards, modal, and pagination footer.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Features
 
-## React Compiler
+- ✅ Pixel-perfect UI based on provided design
+- ✅ Responsive layout using Flexbox & Grid
+- ✅ Component-based architecture
+- ✅ Reusable components (Navbar, Sidebar, Cards, Modal, Footer)
+- ✅ "Create New" modal (right-side drawer)
+- ✅ Clean and maintainable code structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ React (Vite)
+- 🎨 Tailwind CSS
+- 🧩 Heroicons (for icons)
+
+---
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Umangmathur1007/aventisia-assignment.git
+cd aventisia-assignment
+Install dependencies:
+npm install
+Run the development server:
+npm run dev
+
+
+
+
+📄 License
+This project is created as part of an assignment and is for demonstration purposes only.
