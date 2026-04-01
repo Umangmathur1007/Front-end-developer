@@ -27,8 +27,8 @@ A pixel-perfect React UI built from a Figma design. This project replicates a mo
 Clone the repository:
 
 ```bash
-git clone https://github.com/Umangmathur1007/aventisia-assignment.git
-cd aventisia-assignment
+git clone https://github.com/Umangmathur1007/Front-end-developer.git
+cd Front-end-developer
 Install dependencies:
 npm install
 Run the development server:
