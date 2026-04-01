@@ -15,14 +15,14 @@ const Sidebar = () => {
   return (
     <div className="w-[260px] bg-white border-r border-gray-200 flex flex-col px-3 py-4">
 
-      {/* 🔹 SECTION: MY PROJECTS */}
+      
       <Section title="MY PROJECTS">
         <MenuItem icon={<CpuChipIcon className="w-5" />} text="Agents" />
         <MenuItem icon={<Squares2X2Icon className="w-5" />} text="AI Models" />
         <MenuItem icon={<BookOpenIcon className="w-5" />} text="Library" />
       </Section>
 
-      {/* 🔹 SECTION: ORCHESTRATOR */}
+      
       <Section title="ORCHESTRATOR">
         <MenuItem icon={<ServerIcon className="w-5" />} text="Published" />
         <MenuItem icon={<ServerIcon className="w-5" />} text="Machines" />
@@ -32,7 +32,7 @@ const Sidebar = () => {
         <MenuItem icon={<DocumentTextIcon className="w-5" />} text="Executions" />
         <MenuItem icon={<ShieldCheckIcon className="w-5" />} text="Vault" />
 
-        {/* ✅ ACTIVE */}
+        
         <MenuItem
           icon={<BookOpenIcon className="w-5" />}
           text="Knowledge Base"
@@ -42,7 +42,7 @@ const Sidebar = () => {
         <MenuItem icon={<CircleStackIcon className="w-5" />} text="Key Store" />
       </Section>
 
-      {/* 🔹 SECTION: ADMIN */}
+      
       <Section title="ADMIN">
         <MenuItem icon={<Squares2X2Icon className="w-5" />} text="Tenant" />
         <MenuItem icon={<Squares2X2Icon className="w-5" />} text="Integrations" />

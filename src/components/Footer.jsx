@@ -9,15 +9,15 @@ const Footer = () => {
   return (
     <div className="flex items-center justify-between px-6 h-[56px] border-t border-gray-200 bg-white">
 
-      {/* LEFT */}
+      
       <p className="text-[13px] text-black">
         6 rows
       </p>
 
-      {/* RIGHT */}
+      
       <div className="flex items-center gap-4 text-[13px] text-black">
 
-        {/* Rows per page */}
+        
         <div className="flex items-center gap-2">
           <span>Rows per page</span>
           <select className="border border-gray-300 rounded-md px-2 py-1 text-[13px] outline-none">
@@ -25,10 +25,10 @@ const Footer = () => {
           </select>
         </div>
 
-        {/* Page Info */}
+        
         <span>page 1 of 1</span>
 
-        {/* Pagination Icons */}
+        
         <div className="flex items-center gap-2">
 
           <button className="p-1 border border-gray-200 rounded-md">

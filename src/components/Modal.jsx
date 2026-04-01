@@ -6,16 +6,16 @@ const Modal = ({ isOpen, onClose }) => {
   return (
     <div className="fixed inset-0 z-50 flex">
 
-      {/* 🔹 Overlay */}
+      
       <div
         className="flex-1 bg-black/30"
         onClick={onClose}
       ></div>
 
-      {/* 🔹 Right Drawer */}
+      
       <div className="w-[420px] h-full bg-white shadow-xl p-6 flex flex-col">
 
-        {/* HEADER */}
+        
         <div className="flex justify-between items-start mb-4">
           <div>
             <h2 className="text-[12px] font-semibold text-black">
@@ -32,10 +32,10 @@ const Modal = ({ isOpen, onClose }) => {
           />
         </div>
 
-        {/* FORM */}
+        
         <div className="flex-1 overflow-y-auto space-y-4">
 
-          {/* Name */}
+          
           <div>
             <label className="text-[12px] text-gray-700 font-medium">
               Name (Cannot be edited later) <span className="text-red-500">*</span>
@@ -47,7 +47,7 @@ const Modal = ({ isOpen, onClose }) => {
             />
           </div>
 
-          {/* Description */}
+          
           <div>
             <label className="text-[13px] text-gray-700 font-medium">
               Description
@@ -59,7 +59,7 @@ const Modal = ({ isOpen, onClose }) => {
             ></textarea>
           </div>
 
-          {/* Vector Store */}
+          
           <div>
             <label className="text-[13px] text-gray-700 font-medium">
               Vector Store <span className="text-red-500">*</span>
@@ -69,7 +69,7 @@ const Modal = ({ isOpen, onClose }) => {
             </select>
           </div>
 
-          {/* Embedding Model */}
+          
           <div>
             <label className="text-[13px] text-gray-700 font-medium">
               LLM Embedding Model <span className="text-red-500">*</span>
@@ -81,7 +81,7 @@ const Modal = ({ isOpen, onClose }) => {
 
         </div>
 
-        {/* FOOTER BUTTON */}
+        
         <div className="pt-4">
           <button className="w-full bg-[#4F46E5] text-white py-2 rounded-md text-sm font-medium hover:opacity-90">
             Create
