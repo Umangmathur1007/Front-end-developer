@@ -1,4 +1,4 @@
-# 🚀 Aventisia Assignment – Knowledge Base UI
+# 🚀 Front End Developer (React) Project
 
 A pixel-perfect React UI built from a Figma design. This project replicates a modern dashboard interface with a sidebar, navbar, cards, modal, and pagination footer.
 
